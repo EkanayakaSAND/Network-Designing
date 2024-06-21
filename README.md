@@ -91,88 +91,65 @@ b. You will be expected to configure the core devices and few devices to provide
 
 ## Project 05
 
-Enterprise Networking Project 05
-
 Radeon Company Ltd is a US-owned company that deals with Banking and Insurance. The company is intending to expand its services across the African continent having the first branch to be located in Nairobi, Kenya. The company has secured a four story building to operate within the Kenyan capital city. Therefore the company would like to allow sourcing the knowledge from a group of final year students from the local university to design and implement the network. Assume you are among the students to take over this role, carefully read down the requirements then model the design and implement the network based on the company’s needs. Each floor has departments as provided in the table below.
 
-First Floor
-  No.
- Departments
- No. of PC
- No. of Printers
-  1
- Management
- 20
- 4
-  2
- Research
- 20
- 4
-  3
- Human Resource
- 20
- 4
+##### First Floor
+
+__Management Department__<br>
+
+PC:20 <br> Printers:4<br>
+
+__Research Department__<br>
+
+PC:20 <br> Printers:4<br>
+
+__HR Department__<br>
+
+PC:20 <br> Printers:4<br>
 
 
-Second Floor
-  No.
- Departments
- No. of PC
- No. of Printers
-  1
- Marketing
- 20
- 4
-  2
- Accounting
- 20
- 4
-  3
- Finance
- 20
- 4
+##### Second Floor
+
+__Marketing Department__<br>
+
+PC:20 <br> Printers:4<br>
+
+__Accounting Department__<br>
+
+PC:20 <br> Printers:4<br>
+
+__Finance Department__<br>
+
+PC:20 <br> Printers:4<br>
 
 
-Third Floor
-  No.
- Departments
- No. of PC
- No. of Printers
-  1
- Logistics and Store
- 20
- 4
-  2
- Customer care
- 20
- 4
-  3
- Guest Area
- 40
- 2
+##### Third Floor
 
-Fourth Floor
- No.
- Departments
- No. of PC
- No. of Printers
- No. of Servers
- 1
- Administration
- 20
- 2
+__Logistics & Store__<br>
 
- 2
- ICT
- 20
- 2
+PC:20 <br> Printers:4<br>
 
- 3
- Server Room
- 2 Admin PCs
+__Customer care__<br>
 
- 3 (DHCP, HTTP, & Email)
+PC:20 <br> Printers:4<br>
 
+__Guest Area__<br>
+
+PC:40 <br> Printers:2<br>
+
+##### Fourth Floor
+
+__Administration Department__<br>
+
+PC:20 <br> Printers:2<br>
+
+__ICT Department__<br>
+
+PC:20 <br> Printers:2<br>
+
+__Server Room__<br>
+
+PC:2 <br> Servers:3
 
 
 
