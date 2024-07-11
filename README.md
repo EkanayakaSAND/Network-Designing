@@ -77,31 +77,50 @@ _Network Design :_
 
 ![Application Screenshot](images/prj-03-1.png)
 
-## Project 04
+## Project 04 - Campus Network
 
-Albion University is a large university which has two campuses situated 20 miles apart. The university’s students and staff are distributed in 4 faculties, these includes the faculties of Health and Science, Business, Engineering/Computing and Art/Design. Each member of staff has a PC and student s have access to PCs in the labs.
+__Albion University__ is a large university which has two campuses situated 20 miles apart. The university’s students and staff are distributed in __4 faculties__, these includes the faculties of `Health and Science`, `Business`, `Engineering/Computing` and `Art/Design`. Each member of staff has a PC and student s have access to PCs in the labs.
 
 Requirements :
 
-a. Create a network topology with the main components to support the followings :
+1. Create a network topology with the main components to support the followings :
 	
-	1. Main Campus
+#### Main Campus
 
-    • Building A : Administrative staff in the departments of Management, HR and Finance. The admin staff PCs are distributed <br> in the building offices and it is expected that they will share some networking equipment<br> (Hint: use of VLANs is exptected here). The Faculty of Business is also situated in this building.
-    • Building B : Faculty of Engineering and Computing and Faculty of Art and Design
-    • Building C : Students’ labs and IT department. The IT department hosts the university web server and other servers.
-    • There is also an email server hosted externally on the cloud.
+##### _Building A_
+ 
+- Administrative staff in the departments of Management, HR and Finance.
+- The admin staff PCs are distributed in the building offices and it is expected that they will share some networking equipment _(Hint: use of VLANs is exptected here)_. 
+- The Faculty of Business is also situated in this building.
 
-	2.Smaller Campus
+##### _Building B_ 
+     
+- Faculty of Engineering and Computing and Faculty of Art and Design.
 
-    • Faculty of Health and Science (Staff and students’ labs are situated in separate floors)
+##### _Building C_  
 
-b. You will be expected to configure the core devices and few devices to provide end-to-end      connectivity and access to the internal servers and external server.
+- Students’ labs and IT department. 
+- The IT department hosts the university web server and other servers.
+- There is also an email server hosted externally on the cloud.
 
-    • Each department/Faculty is expected to be on its own separate IP network.
-    • The switches should be configured with appropriate VLANs and security settings.
-    • RIPv2 will be used to provide routing for the routers in the internal network and static routing for the external server.
-    • The devices in building A will be expected to acquire dynamic IP address from a router-based DHCP server.
+#### Smaller Campus
+
+- Faculty of Health and Science (Staff and students’ labs are situated in separate floors)
+
+<hr>
+
+2. You will be expected to configure the core devices and few devices to provide end-to-end connectivity and access to the internal servers and external server.
+
+- Each department/Faculty is expected to be on its own `separate IP network`.
+- The switches should be configured with appropriate `VLANs` and security settings.
+- `RIPv2` will be used to provide routing for the routers in the internal network and static routing for the external server.
+- The devices in building A will be expected to acquire dynamic IP address from a router-based `DHCP server`.
+
+_Network Design :_
+
+![Application Screenshot](images/prj-04-1.png)
+
+![Application Screenshot](images/prj-04-2.png)
 
 ## Project 05
 
