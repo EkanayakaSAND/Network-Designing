@@ -124,106 +124,24 @@ _Network Design :_
 
 **Radeon Company Ltd** is a US-owned company that deals with Banking and Insurance. The company is intending to expand its services across the African continent having the first branch to be located in Nairobi, Kenya. The company has secured a four story building to operate within the Kenyan capital city. Therefore the company would like to allow sourcing the knowledge from a group of final year students from the local university to design and implement the network. Assume you are among the students to take over this role, carefully read down the requirements then model the design and implement the network based on the company’s needs. Each floor has departments as provided in the table below.
 
-<table>
-  <thead>
-    <tr>
-      <th>Floor</th>
-      <th>Department</th>
-      <th>PCs</th>
-      <th>Printers</th>
-      <th>Servers</th>
-    </tr>
-   </thead>
-   <tbody>
-     <tr>
-       <td>First Floor</td>
-       <td>Management Department</td>
-       <td>20</td>
-       <td>4</td>
-       <td>0</td>
-     </tr>
-     <tr>
-       <td></td>
-       <td>Research Department</td>
-       <td>20</td>
-       <td>4</td>
-       <td>0</td>
-     </tr>
-     <tr>
-       <td></td>
-       <td>HR Department</td>
-       <td>20</td>
-       <td>4</td>
-       <td>0</td>
-     </tr>
-     <tr><td>______________</td></tr>
-     <tr>
-       <td>Second Floor</td>
-       <td>Marketing Department</td>
-       <td>20</td>
-       <td>4</td>
-       <td>0</td>
-     </tr>
-     <tr>
-       <td></td>
-       <td>Accounting Department</td>
-       <td>20</td>
-       <td>4</td>
-       <td>0</td>
-     </tr>
-     <tr>
-       <td></td>
-       <td>Finance Department</td>
-       <td>20</td>
-       <td>4</td>
-       <td>0</td>
-     </tr>
-     <tr><td>______________</td></tr>
-     <tr>
-       <td>Third Floor</td>
-       <td>Logistics & Store</td>
-       <td>20</td>
-       <td>4</td>
-       <td>0</td>
-     </tr>
-     <tr>
-       <td></td>
-       <td>Customer care</td>
-       <td>20</td>
-       <td>4</td>
-       <td>0</td>
-     </tr>
-     <tr>
-       <td></td>
-       <td>Guest Area</td>
-       <td>40</td>
-       <td>2</td>
-       <td>0</td>
-     </tr>
-     <tr><td>______________</td></tr>
-     <tr>
-       <td>Fourth Floor</td>
-       <td>Administration Department</td>
-       <td>20</td>
-       <td>2</td>
-       <td>0</td>
-     </tr>
-     <tr>
-       <td></td>
-       <td>ICT Department</td>
-       <td>20</td>
-       <td>2</td>
-       <td>0</td>
-     </tr>
-     <tr>
-       <td></td>
-       <td>Server Room</td>
-       <td>2</td>
-       <td>0</td>
-       <td>3</td>
-     </tr>
-  </tbody>
-</table>
+| Floor          | Department              | PCs | Printers | Servers |
+|----------------|-------------------------|-----|----------|---------|
+| First Floor    | Management Department   | 20  | 4        | 0       |
+|                | Research Department     | 20  | 4        | 0       |
+|                | HR Department           | 20  | 4        | 0       |
+|                |                         |     |          |         |
+| Second Floor   | Marketing Department    | 20  | 4        | 0       |
+|                | Accounting Department   | 20  | 4        | 0       |
+|                | Finance Department      | 20  | 4        | 0       |
+|                |                         |     |          |         |
+| Third Floor    | Logistics & Store       | 20  | 4        | 0       |
+|                | Customer care           | 20  | 4        | 0       |
+|                | Guest Area              | 40  | 2        | 0       |
+|                |                         |     |          |         |
+| Fourth Floor   | Administration Department | 20  | 2        | 0     |
+|                | ICT Department          | 20  | 2        | 0       |
+|                | Server Room             | 2   | 0        | 3       |
+
 
 #### Requirements :
 
